@@ -1,0 +1,70 @@
+/* header */
+
+.bg-image-header {
+    background-image: url('../images/image.jpg');
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.racha {
+    width: 80px;
+}
+a{
+    color: white;
+    
+}
+.navigation-flex{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 30px 100px;
+
+
+}
+.nav-ul {
+    display: flex;
+    
+    
+
+}
+.burger-bar{
+    display: none;
+    color: #FFFFFF;
+}
+li {
+    padding: 30px;
+    
+}
+
+/* section1 */
+
+.conainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-block{
+    width: 50%;
+    height:600px ;
+
+
+}
+
+.h2{
+    font-size: 40px;
+}
+.home-lake{
+    max-width: 457;
+    width: 100%;
+}
+.btn{
+    border-radius: 20px;
+    border: 1px solid ;
+    background-color: azure;
+}
+.right-block {
+    width: 50%;
+    height: 600px;
+    
+}
