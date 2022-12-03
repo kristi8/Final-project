@@ -28,3 +28,5 @@ window.onscroll = () => {
     menu.classList.remove('fa-x');
     navbar.classList.remove('open')
 }
+
+

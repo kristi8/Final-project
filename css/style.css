@@ -61,7 +61,7 @@ section {
   width: 100%;
   height: 100vh;
   background-image: url("../images/home1.jpg");
-  /* background-repeat: no-repeat; */
+  
   background-size: cover;
   background-position: center;
   display: grid;
@@ -248,8 +248,7 @@ header.sticky {
   transform: scale(1.04);
   cursor: pointer;
 }
-/* 
- https://www.youtube.com/watch?v=V7Xz2ZEwqXs */
+
 .newsletter {
   display: flex;
   flex-wrap: wrap;
@@ -376,3 +375,5 @@ header.sticky {
 .icon {
   color: #ffffff;
 }
+
+
