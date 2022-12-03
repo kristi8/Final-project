@@ -8,16 +8,18 @@ window.addEventListener ("scroll", function() {
 });
 
 
-let navigation = document.getElementById('navbar');
-let burgerbar = document.getElementById('burgerBar');
+// let navigation = document.getElementById('navbar');
+// let burgerbar = document.getElementById('burgerBar');
 
-burgerbar.addEventListener('click', function(){
-   navigation.classList.toggle('activenav')
-});
-// let menu = document.querySelector('#burger-bar');
-// let navbar = document.querySelector('.nav-ul');
+// burgerbar.addEventListener('click', function(){
+//    navigation.classList.toggle('activenav')
+// });
 
-// menu.onclick = () => {
-//     menu.classList.toggle('activenav');
-//     navbar.classList.toggle('open')
-// }
+
+let menu = document.querySelector('#burgerBar');
+let navbar = document.querySelector('.nav-ul');
+
+menu.onclick = () => {
+    menu.classList.toggle('fa-x');
+    navbar.classList.toggle('open')
+};
