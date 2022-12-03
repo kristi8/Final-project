@@ -1,6 +1,6 @@
 /* header */
 
-header {
+header{
   position: fixed;
   top: 0;
   right: 0;
@@ -37,11 +37,21 @@ header {
 
 .burger-bar {
   display: none;
-  color: white;
+  color: grey;
   cursor: pointer;
   font-size: 35px;
   z-index: 10001;
 }
+
+/* .burger-bar{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color:black;
+  font-size: 35px;
+  display: none;
+  cursor: pointer;
+} */
 
 section {
   padding: 80px 18%;
@@ -93,6 +103,7 @@ header.sticky {
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 /* .sticky .racha{
+  color: #2b7bc5;
     
 } */
 .sticky .nav-ul a {
