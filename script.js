@@ -23,3 +23,8 @@ menu.onclick = () => {
     menu.classList.toggle('fa-x');
     navbar.classList.toggle('open')
 };
+
+window.onscroll = () => {
+    menu.classList.remove('fa-x');
+    navbar.classList.remove('open')
+}
