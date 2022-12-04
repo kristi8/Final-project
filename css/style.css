@@ -29,7 +29,7 @@ header {
   transition: ease 0.4s;
 }
 .nav-ul a:hover {
-  color: grey;
+  color: #113037;
   background-color: #ffffff;
   box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
   border-radius: 4px;
@@ -88,7 +88,7 @@ section {
   padding: 15px 30px;
   font-size: 16px;
   background: #ffffffbf;
-  color: #6e54fa;
+  color: #516D94;
   border-radius: 4px;
   transition: ease 0.4s;
 }
@@ -107,11 +107,12 @@ header.sticky {
     
 } */
 .sticky .nav-ul a {
-  color: #2b7bc5;
+  color:#516D94;
 }
 .text h2 {
   font-size: 48px;
   line-height: 1.1;
+  color: #113037;
 }
 .row-items {
   display: grid;
@@ -140,6 +141,8 @@ header.sticky {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 8px;
+  /* color: #516D94; */
+  color: #113037;
 }
 .container-box p {
   font-size: 15px;
@@ -157,6 +160,7 @@ header.sticky {
 .title h2 {
   font-size: 48px;
   line-height: 1.2;
+  color: #113037;
 }
 .package-content {
   display: grid;
@@ -195,13 +199,16 @@ header.sticky {
   padding-top: 24px;
 }
 .stars i {
-  color: #6e54fa;
+  /* color: #516D94; */
+  color: #113037;
   font-size: 20px;
 }
 .location h4 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 8px;
+  /* color: #516D94; */
+  color: #113037;
 }
 .location p {
   font-size: 15px;
@@ -262,10 +269,11 @@ header.sticky {
 .news-text h2 {
   font-size: 3rem;
   margin-bottom: 5px;
+  color: #113037;
 }
 .news-text p {
   font-size: 1.1rem;
-  color: #5a7184;
+  color: #516D94;
   line-height: 30px;
 }
 
@@ -290,14 +298,23 @@ header.sticky {
   border: none;
   padding: 14px 30px;
   border-radius: 15px;
-  background-color: #6e54fa;
+  background-color: #516D94;
   color: #ffffff;
   top: 6px;
   right: 6px;
   cursor: pointer;
 }
 #contact {
-  background-color: #6e54fa;
+
+/* background-color: #285B51; */
+
+
+  /* background-color: #315C7C; */
+  /* background-color: #346B6E; */
+  /* background-color: #41678C; */
+  background-color: #516D94;
+/* background-color: #769ABE; */
+
 }
 .main {
   display: flex;
@@ -341,7 +358,7 @@ header.sticky {
   height: 40px;
   width: 40px;
   background-color: #ffffff;
-  color: #6e54fa;
+  color: #516D94;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -373,7 +390,7 @@ header.sticky {
   vertical-align: middle;
 }
 .span1 {
-  color: blue;
+  color: #113037;
 }
 .icon {
   color: #ffffff;
