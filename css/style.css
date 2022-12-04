@@ -122,6 +122,12 @@ header.sticky {
   text-align: center;
   margin-top: 80px;
 }
+
+.png{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
 .container-box {
   background-color: #ffffff;
   border: 1px solid #f0eded;
@@ -176,10 +182,10 @@ header.sticky {
   cursor: pointer;
 }
 .thum img {
-  /* max-width: 400px; */
+  /* max-width: 380px; */
   width: 100%;
-  height: avto;
-  /* object-fit: cover; */
+  height: 500px;
+  object-fit: cover;
   
 }
 .thum h3 {
@@ -215,7 +221,7 @@ header.sticky {
   color: #5a7184;
 }
 .thum:hover {
-  filter: brightness(100%) hue-rotate(45deg);
+  filter: brightness(100%) hue-rotate(30deg);
   transform: scale(1.04);
 }
 .destination-content {
@@ -254,7 +260,7 @@ header.sticky {
   letter-spacing: 2px;
 }
 .col-content img:hover {
-  filter: brightness(100%) hue-rotate(45deg);
+  filter: brightness(100%) hue-rotate(20deg);
   transform: scale(1.04);
   cursor: pointer;
 }
