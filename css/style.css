@@ -37,7 +37,7 @@ header {
 
 #burgerBar {
   display: none;
-  color: #221314;
+  color: #113037;
   cursor: pointer;
   font-size: 35px;
   z-index: 10001;
@@ -93,7 +93,7 @@ section {
   transition: ease 0.4s;
 }
 .home-btn:hover {
-  background: white;
+  background:white;
   transform: scale(1.1);
 }
 
@@ -152,7 +152,7 @@ header.sticky {
 }
 .container-box p {
   font-size: 15px;
-  color: #5a7184;
+  color: #516D94;
 }
 .container-box:hover {
   box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
@@ -185,6 +185,7 @@ header.sticky {
   max-width: 400px;
   width: 100%;
   height: 400px;
+  /* height: auto; */
   object-fit: cover;
   
 }
@@ -195,7 +196,7 @@ header.sticky {
   text-align: right;
   color: white;
   top: 36px;
-  left: 40px;
+  right: 40px;
 }
 .dest-content {
   display: flex;
@@ -218,7 +219,7 @@ header.sticky {
 }
 .location p {
   font-size: 15px;
-  color: #5a7184;
+  color: #516D94;
 }
 .thum:hover {
   filter: brightness(100%) hue-rotate(30deg);
@@ -450,7 +451,7 @@ header.sticky {
 
 }
 .activeDot{
-  /* border: 2px solid red; */
+
   background-color: #516D94;
 
 }
@@ -462,11 +463,11 @@ background-size: cover;
 background-position: center;
 
 }
-.error-text{
+/* .error-text{
   color: blue;
   display: block;
   
-}
+} */
 .section{
   margin-top: 40px;
   margin-left: 50px;

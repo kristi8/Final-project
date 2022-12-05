@@ -42,7 +42,7 @@ let data = [
     {
       id: 2,
       imageUrl:
-        "https://cdn.georgiantravelguide.com/storage/files/shaori-shale-13.jpg",
+        "https://bm.ge/uploads/tinymce/images/%E1%83%A8%E1%83%90%E1%83%9D%E1%83%A0%E1%83%98%20%E1%83%A8%E1%83%90%E1%83%9A%E1%83%947.jpg",
     //   title: "Shaori Shale",
     },
   

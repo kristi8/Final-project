@@ -41,7 +41,8 @@
     display: block;
   }
   .sticky #burgerBar {
-    color: #221314;
+
+    color:  #113037;
   }
   .home {
     height: 88vh;
@@ -69,7 +70,7 @@
     /* right: 0; */
     width: 270px;
     height: 120vh;
-    background-color: grey;
+    background-color: #516D94;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +87,7 @@
     color: white;
   }
   .nav-ul a:hover {
-    color: #221314;
+    color: #516D94;
   }
   .open {
     right: 0;
@@ -133,6 +134,15 @@
     width: 260px;
   }
   .col-content {
-    width: 80%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+}
+@media (max-width: 370px) {
+  .col-content {
+    width:80%;
+    margin: 0 ;
+  
   }
 }
