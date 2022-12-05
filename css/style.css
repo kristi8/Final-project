@@ -473,3 +473,35 @@ background-position: center;
   margin-left: 50px;
 }
 
+/* revew */
+
+.image{
+  width: 200px;
+  
+}
+
+
+.image h2{
+  margin: 10px;
+  color: #113037;
+  font-weight: bold;
+  
+}
+.image h4{
+  color: #516D94;
+}
+.container-revew{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+.revew-image{
+  width: 100px;
+  border-radius: 50%;
+}
+.happy{
+  margin-bottom: 100px;
+}
+
