@@ -154,3 +154,40 @@ setInterval(() => {
 }, 5000);
 
 slide();
+
+// user review
+fetch("https://reqres.in/api/users?page=1&per_page=4", {
+  method: "GET",
+})
+  .then(function (text1) {
+    if (text1.status != 200) {
+      throw text1.status;
+    }
+    return text1.json();
+  })
+  .then(function (text2) {
+    let reviewContainer = document.getElementById("container-review");
+    text2.data.forEach((item) => {
+      let div = document.createElement("div");
+      div.classList.add("image");
+
+      let avatarDiv = document.createElement("div");
+      let img = document.createElement("img");
+      img.classList.add("review-image");
+      img.src = item.avatar;
+      img.alt = "avatar";
+      avatarDiv.appendChild(img);
+
+      let name = document.createElement("h2");
+      name.innerText = item.first_name + " " + item.last_name;
+
+      let comment = document.createElement("h4");
+      comment.innerText = "user comment";
+
+      div.appendChild(avatarDiv);
+      div.appendChild(name);
+      div.appendChild(comment);
+
+      reviewContainer.appendChild(div);
+    });
+  });

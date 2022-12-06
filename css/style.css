@@ -61,7 +61,7 @@ section {
   width: 100%;
   height: 100vh;
   background-image: url("../images/home1.jpg");
-  
+
   background-size: cover;
   background-position: center;
   display: grid;
@@ -88,12 +88,12 @@ section {
   padding: 15px 30px;
   font-size: 16px;
   background: #ffffffbf;
-  color: #516D94;
+  color: #516d94;
   border-radius: 4px;
   transition: ease 0.4s;
 }
 .home-btn:hover {
-  background:white;
+  background: white;
   transform: scale(1.1);
 }
 
@@ -107,7 +107,7 @@ header.sticky {
     
 } */
 .sticky .nav-ul a {
-  color:#516D94;
+  color: #516d94;
 }
 .text h2 {
   font-size: 48px;
@@ -123,7 +123,7 @@ header.sticky {
   margin-top: 80px;
 }
 
-.png{
+.png {
   width: 200px;
   height: 150px;
   object-fit: cover;
@@ -152,7 +152,7 @@ header.sticky {
 }
 .container-box p {
   font-size: 15px;
-  color: #516D94;
+  color: #516d94;
 }
 .container-box:hover {
   box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
@@ -187,7 +187,6 @@ header.sticky {
   height: 400px;
   /* height: auto; */
   object-fit: cover;
-  
 }
 .thum h3 {
   position: absolute;
@@ -219,7 +218,7 @@ header.sticky {
 }
 .location p {
   font-size: 15px;
-  color: #516D94;
+  color: #516d94;
 }
 .thum:hover {
   filter: brightness(100%) hue-rotate(30deg);
@@ -280,7 +279,7 @@ header.sticky {
 }
 .news-text p {
   font-size: 1.1rem;
-  color: #516D94;
+  color: #516d94;
   line-height: 30px;
 }
 
@@ -305,23 +304,20 @@ header.sticky {
   border: none;
   padding: 14px 30px;
   border-radius: 15px;
-  background-color: #516D94;
+  background-color: #516d94;
   color: #ffffff;
   top: 6px;
   right: 6px;
   cursor: pointer;
 }
 #contact {
-
-/* background-color: #285B51; */
-
+  /* background-color: #285B51; */
 
   /* background-color: #315C7C; */
   /* background-color: #346B6E; */
   /* background-color: #41678C; */
-  background-color: #516D94;
-/* background-color: #769ABE; */
-
+  background-color: #516d94;
+  /* background-color: #769ABE; */
 }
 .main {
   display: flex;
@@ -365,7 +361,7 @@ header.sticky {
   height: 40px;
   width: 40px;
   background-color: #ffffff;
-  color: #516D94;
+  color: #516d94;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -405,14 +401,14 @@ header.sticky {
 
 /* slider */
 
-.shaori-shale{
+.shaori-shale {
   font-size: 48px;
   line-height: 1.2;
   color: #113037;
   text-align: center;
   margin-bottom: 30px;
 }
-.arrow{
+.arrow {
   width: 40px;
   height: 40px;
   /* background-color: blueviolet; */
@@ -423,15 +419,14 @@ header.sticky {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  
 }
-.slider-wraper{
+.slider-wraper {
   position: relative;
 }
 .arrow-right {
   right: 30px;
 }
-.arrow-left{
+.arrow-left {
   left: 30px;
 }
 
@@ -442,66 +437,57 @@ header.sticky {
   transform: translateX(-50%);
   bottom: 30px;
 }
-.dot{
+.dot {
   width: 20px;
   height: 20px;
   background-color: #113037;
   border-radius: 50%;
   margin: 10px;
-
 }
-.activeDot{
-
-  background-color: #516D94;
-
+.activeDot {
+  background-color: #516d94;
 }
-.bg-image{
-width: 100%;
-height: 500px;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-
+.bg-image {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /* .error-text{
   color: blue;
   display: block;
   
 } */
-.section{
+.section {
   margin-top: 40px;
   margin-left: 50px;
 }
 
 /* revew */
 
-.image{
+.image {
   width: 200px;
-  
 }
 
-
-.image h2{
+.image h2 {
   margin: 10px;
   color: #113037;
   font-weight: bold;
-  
 }
-.image h4{
-  color: #516D94;
+.image h4 {
+  color: #516d94;
 }
-.container-revew{
+#container-review {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  
 }
-.revew-image{
+.review-image {
   width: 100px;
   border-radius: 50%;
 }
-.happy{
+.happy {
   margin-bottom: 100px;
 }
-
