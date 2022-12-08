@@ -491,3 +491,7 @@ header.sticky {
 .happy {
   margin-bottom: 100px;
 }
+/* form */
+#span{
+  display: block;
+}

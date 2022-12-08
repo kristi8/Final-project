@@ -191,3 +191,22 @@ fetch("https://reqres.in/api/users?page=1&per_page=4", {
       reviewContainer.appendChild(div);
     });
   });
+
+  // email
+  let emailField = document.getElementById('emailField');
+
+  emailField.addEventListener('keydown', function(){
+    let emailValue = document.getElementById('emailField').value;
+    let errorSpan = document.getElementById('span');
+
+    let emailPatern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+      if (emailValue.match(emailPatern) ){
+        errorSpan.innerText = 'Your email is valid';
+        errorSpan.style.color = 'green';
+      } else {
+        errorSpan.innerText = 'Your email is invalid';
+        errorSpan.style.color = 'red';
+      }
+  })
+
