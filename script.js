@@ -195,7 +195,7 @@ fetch("https://reqres.in/api/users?page=1&per_page=4", {
   // email
   let emailField = document.getElementById('emailField');
 
-  emailField.addEventListener('keydown', function(){
+  emailField.addEventListener('keyup', function(){
     let emailValue = document.getElementById('emailField').value;
     let errorSpan = document.getElementById('span');
 
