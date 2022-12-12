@@ -171,7 +171,7 @@ fetch("https://reqres.in/api/users?page=1&per_page=4", {
       name.innerText = item.first_name + " " + item.last_name;
 
       let comment = document.createElement("h4");
-      comment.innerText = "user comment";
+      comment.innerText = "highly recomended";
 
       div.appendChild(avatarDiv);
       div.appendChild(name);
