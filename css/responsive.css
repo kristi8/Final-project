@@ -1,38 +1,56 @@
 @media (max-width: 1400px) {
   header {
     padding: 17px 3%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   header.sticky {
     padding: 10px 3%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   section {
     padding: 80px 3%;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .home-text h1 {
     font-size: 4.5rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .text h2 {
     font-size: 2.3rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .title h2 {
     font-size: 2.3rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .news-text h2 {
     font-size: 2.3rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .nav-ul a {
     font-size: 1rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .list ul li a {
     font-size: 1rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
 }
@@ -47,34 +65,27 @@
   .home {
     height: 88vh;
   }
-  /* .navigation{
-    display: none;
-} */
-/* .navbar{
-    flex-direction: column;
-} */
-/* ul{
-    flex-direction: column;
-    margin-top: 30px;
   
-} */
-/* .navigation.activenav{
-    display: block;
-    cursor: pointer;
-    
-} */
   .nav-ul {
     position: absolute;
     top: 0;
     right: -100%;
-    /* right: 0; */
     width: 270px;
     height: 120vh;
     background-color: #516D94;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 150px 30px;
+    -webkit-transition: 0.8s all;
+    -o-transition: 0.8s all;
     transition: 0.8s all;
   
   }
@@ -106,18 +117,26 @@
   }
   .home-text h1 {
     font-size: 3.8rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .text h2 {
     font-size: 1.8rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .title h2 {
     font-size: 1.8rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   .news-text h2 {
     font-size: 1.8rem;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
 
@@ -126,6 +145,8 @@
   }
   .home {
     height: 85vh;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
 }

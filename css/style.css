@@ -209,7 +209,7 @@ header.sticky {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.thum h3 {
+.thum span {
   position: absolute;
   font-size: 30px;
   font-weight: 600;
@@ -244,7 +244,7 @@ header.sticky {
   color: #113037;
   font-family: 'Poppins';
 }
-.location p {
+.location span {
   font-size: 15px;
   color: #516d94;
   font-family: 'Poppins';
